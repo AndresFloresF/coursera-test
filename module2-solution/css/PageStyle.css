@@ -1,0 +1,65 @@
+/********** Estilos fijos **********/
+  * {
+  box-sizing: border-box;
+  margin: 0px;
+  }
+/********** Estilo al titulo principal **********/
+  h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 250%;
+    font-family: Fantasy ;
+  }
+/********** Estilo al titulo del menu **********/
+  .titulomenu {
+  width: 25%;
+  border: 4px solid black;
+  position: absolute; 
+  font-size: 125%;
+  text-align: center;
+  top: 0px;
+  left: 75%;
+  font-family: Fantasy ;
+  }
+/********** Estilo a contenedores **********/
+  div#container {
+  position: relative;
+  border: 10px solid white;
+  padding: 4px;
+  background-color: black;
+  }
+/********** Estilo a parrafo **********/
+  .parrafomenu {
+    font-size: 125%;
+    text-align: justify;
+    background-color: gray;  
+    border: 10px solid gray;
+    border-top: 30px solid gray;  
+    font-family: Sans-serif;
+    color: white;
+  }
+/********** Estilos para diferentes tamaños de paginas  **********/
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+     .col-lg-4{
+      float: left;
+      width: 33.33%;
+    }
+  }
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12  {
+      float: left;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+  }
